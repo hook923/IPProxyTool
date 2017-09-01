@@ -35,8 +35,7 @@ class UsProxySpider(BaseSpider):
 
     def parse_page(self, response):
         pattern = re.compile(
-                '<tr><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>('
-                '.*?)</td><td>(.*?)</td></tr>',
+                '<tr><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td class=\'hm\'>(.*?)</td><td>(.*?)</td><td class=\'hm\'>(.*?)</td><td class=\'hx\'>(.*?)</td><td class=\'hm\'>(.*?)</td></tr>',
                 re.S)
         items = re.findall(pattern, response.body)
 
