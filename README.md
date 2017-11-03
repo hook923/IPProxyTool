@@ -1,8 +1,7 @@
 # IPProxyTool
 使用 scrapy 爬虫抓取代理网站，获取大量的免费代理 ip。过滤出所有可用的 ip，存入数据库以备使用。
-可以访问我的个人站点，查看我的更多有趣项目 [awolfly9](http://awolfly9.com/)
-
-感谢 [youngjeff](https://github.com/youngjeff) 和我一起维护该项目
+原项目来自 [awolfly9](http://awolfly9.com/)  [youngjeff](https://github.com/youngjeff) 
+2017-10月份起由本人[hook923](https://github.com/hook923) fork
 
 ## 运行环境
 安装 python3  and mysql 数据库
@@ -25,8 +24,10 @@ $ git clone https://github.com/awolfly9/IPProxyTool.git
 ```
 $ cd IPProxyTool
 ```
-修改 mysql 数据库配置 [config.py](https://github.com/awolfly9/IPProxyTool/blob/master/config.py) 中 database_config 的用户名和密码为数据库的用户名和密码
+************
 
+修改 mysql 数据库配置 [config.py](https://github.com/awolfly9/IPProxyTool/blob/master/config.py) 中 database_config 的用户名和密码为数据库的用户名和密码
+*************
 ```
 $ vim config.py
 ---------------
@@ -169,6 +170,10 @@ $ python run_server.py
 
 
 ## 项目更新
+-----------------------------2017-11-4----------------------------<br>
+0.从这里开始由hook923维护此项目
+1.新增nyloner,free_proxy,data5u,goubanjia,ip3366,zdaye 等几个网址
+
 -----------------------------2017-6-23----------------------------<br>
 1.python2 -> python3<br>
 2.web.py -> flask<br>
