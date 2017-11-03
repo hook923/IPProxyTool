@@ -1,7 +1,7 @@
 # IPProxyTool
 使用 scrapy 爬虫抓取代理网站，获取大量的免费代理 ip。过滤出所有可用的 ip，存入数据库以备使用。
-原项目来自 [awolfly9](http://awolfly9.com/)  [youngjeff](https://github.com/youngjeff) 
-2017-10月份起由本人[hook923](https://github.com/hook923) fork
+原项目来自 [awolfly9](http://awolfly9.com/) , [youngjeff](https://github.com/youngjeff) 创建及维护 . 
+2017-10月份起由本人[hook923](https://github.com/hook923) Fork
 
 ## 运行环境
 安装 python3  and mysql 数据库
