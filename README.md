@@ -160,14 +160,15 @@ $ python run_server.py
   * (国内) http://ip.zdaye.com/>
 
 ## TODO
+* 彻底去除不必要的文件
 * 添加多数据库支持
   * mysql
   * redis TODO...
 * 添加抓取更多免费代理网站:
   站大爷验证码<http://ip.zdaye.com/>
-
-*筛选稳定可靠的http，https代理
-*筛选高匿高速的http，https代理
+* 视情况使用代理爬取
+* 筛选稳定可靠的http，https代理
+* 筛选高匿高速的http，https代理
 
 
 
@@ -181,6 +182,7 @@ $ python run_server.py
  +5.新增pipelines.py，数据库的保存统一在这里完成。
  +6.采用传统的item.py，不再使用basespider保存数据库，但basespider暂未删除
  +7.验证代理的run_crawl_proxy.py全新重写
+ +8.新增HeaderMidWare.py,为下一步使用代理ip爬代理做准备
  
  
 -----------------------------2017-6-23----------------------------<br>
