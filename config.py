@@ -1,14 +1,14 @@
 # coding=utf-8
 
 DB_config = {
-    # 'db_type': 'mongodb',
+    #'db_type': 'mongodb',
     'db_type': 'mysql',
 
     'mysql': {
         'host': 'localhost',
         'port': 3306,
         'user': 'root',
-        'password': '123456',
+        'password': '061798qmm@',
         'charset': 'utf8',
     },
     'redis': {
