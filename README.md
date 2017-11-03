@@ -126,13 +126,13 @@ $ python run_server.py
 | ip 		| str 		| ip 地址		| 是|
 | port 		| str 		| 端口 			|是|
 | country 	| str 		| 国家 			|否|
-| anonymity | int 		| 1:高匿,2:匿名,3:透明  |否|
+| anonymity	| int 		| 1:高匿,2:匿名,3:透明  |否|
 | https 	| str 		| yes:https,no:http, all:http,https ,unkn:未知 |是|
 | speed 	| float 	| 访问速度 		|否|
 | alive 	| float 	| 存活时间 		|否|
-| valid_time | timestamp| 验证时间 		|否|
+| valid_time| timestamp	| 验证时间 		|否|
 | valid_count| int 		| 验证次数 		|否|
-| save_time | timestamp | 入库时间 		|否|
+| save_time	| timestamp	| 入库时间 		|否|
 | source 	| str 		| ip 来源 		|否|
 
 ##目前支持的抓取的免费代理 IP 站点
