@@ -224,7 +224,7 @@ $ python run_server.py
 
 下载本程序
 ```
-git clone https://github.com/awolfly9/IPProxyTool
+git clone https://github.com/hook923/IPProxyTool
 ```
 
 然后进入目录：
