@@ -33,6 +33,7 @@ class BaseSpider(Spider):
         self.sql.init_proxy_table(config.free_ipproxy_table)
 
     def start_requests(self):
+        print("start_requests")
         for i, url in enumerate(self.urls):
             yield Request(
                 url=url,
